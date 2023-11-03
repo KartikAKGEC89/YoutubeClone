@@ -6,6 +6,14 @@ import { RiVideoAddLine } from 'react-icons/ri'
 import { IoMdNotificationsOutline } from 'react-icons/io'
 import {BiUserCircle} from 'react-icons/bi'
 const Navbar = () => {
+  // const Currentuser = null;
+  const Currentuser = {
+    result: {
+      name: "kartik",
+      email: "s11kartik2111087@gmail.com"
+    }
+  }
+
   return (
     <div className='Container_Navbar'>
           <div className='Burger_Logo_container'>
@@ -34,10 +42,24 @@ const Navbar = () => {
       </div>
       <IoMdNotificationsOutline size={22} className='vid_bell' />
       <div className='auth_button'>
-        <div className='auth_btn'>
+        {
+          Currentuser ? (<>
+            <div className='user_logo'>
+              <div className='user_logo2'>
+                {
+                  Currentuser?.result.name ? (<>
+                    {Currentuser?.result.name.charAt(0).toUpperCase()}
+                  </>) : (<>
+                      {Currentuser?.result.email.charAt(0).toUpperCase()}
+                  </>)
+                }
+              </div>
+            </div>
+          </>) : (<div className='auth_btn'>
           <BiUserCircle size={22} />
           <b>Sign IN</b>
-        </div>
+        </div>)
+        }
       </div>
     </div>
   )

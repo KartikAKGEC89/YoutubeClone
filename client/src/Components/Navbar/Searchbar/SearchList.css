@@ -1,0 +1,16 @@
+.searchlist {
+    background-color: white;
+    width: 90.75%;
+    position: absolute;
+    top: 2.7rem;
+    height: fit-content;
+    z-index: 91;
+}
+.searchlistitem {
+    margin: 0;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.searchlistitem:hover {
+    background-color: rgb(66, 63, 63);
+}
