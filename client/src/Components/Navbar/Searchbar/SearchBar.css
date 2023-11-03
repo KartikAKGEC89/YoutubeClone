@@ -1,0 +1,51 @@
+.search_container {
+    margin: auto;
+    flex-grow: 2;
+    display: flex;
+    height: 3.2rem;
+    padding: 0.3rem;
+}
+.search_container2 {
+    margin: auto;
+}
+.search_div {
+    display: flex;
+    margin: auto;
+    position: relative;
+    z-index: 91;
+    padding: 0.2rem;
+}
+.iBox_search {
+     background-color: rgb(0, 0, 0);
+     width: 30rem;
+     border: 1px solid rgba(120, 120, 120, 0.4);
+     color: white;
+     font-size: large;
+     padding: 0.2rem;
+     height: 2rem;
+     padding-left: 2rem;
+}
+.searchicon_searchbar {
+    cursor: pointer;
+    padding: 0.75rem;
+    width: 2rem;
+    border-radius: 0.1rem;
+    background-color: rgb(68, 64, 64);
+    color: aliceblue;
+}
+.searchicon_searchbar:hover {
+    background-color: black;
+}
+.searchicon_mic {
+    cursor: pointer;
+    border: 0.1rem;
+    border-radius: 50%;
+    background-color: rgb(62, 62, 62);
+    width: 1.5rem;
+    color: white;
+    padding: 0.75rem;
+    margin-left: 1rem;
+}
+.searchicon_mic:hover {
+    background-color: black;
+}
