@@ -1,0 +1,30 @@
+.container_Leftside {
+    background-color: rgb(25, 25, 25);
+    width: 4.7rem;
+    height: calc(100vh - 3.55rem);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.icon_sidebar_div {
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+
+}
+.icon_sidebar {
+    margin: auto;
+}
+.text_sidebar {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding: 0.2rem;
+}
+.icon_sidebar_div:hover,
+.icon_sidebar_div:active {
+    color: azure;
+    background-color: rgb(68, 68, 68);
+}

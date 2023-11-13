@@ -1,0 +1,19 @@
+.containerdrawer_bar {
+    height: calc(100vh - 3.4rem);
+    position: absolute;
+    width: 100vw;
+    z-index: 500;
+}
+.containerdrawer_bar2 {
+    background-color: rgb(28, 28, 28);
+    width: 15rem;
+    overflow-y: auto;
+}
+.Drawer_leftsidebar {
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.293);
+}
+.icon_sidebar_div p {
+    display: flex;
+    margin: 0;
+}
